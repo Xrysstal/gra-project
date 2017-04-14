@@ -1,0 +1,89 @@
+{
+	"type": "Live2D Model Setting",
+	"name": "avatar01",
+	"model": "avatar01.moc",
+	"textures": [
+		"avatar01.2048/texture_00.png"
+	],
+	"expressions":[
+		{"name":"exp05.exp.json","file":"expressions/exp/exp05.exp.json"},
+		{"name":"exp06.exp.json","file":"expressions/exp/exp06.exp.json"},
+		{"name":"exp07.exp.json","file":"expressions/exp/exp07.exp.json"},
+		{"name":"exp08.exp.json","file":"expressions/exp/exp08.exp.json"},
+		{"name":"exp09.exp.json","file":"expressions/exp/exp09.exp.json"},
+		{"name":"exp10.exp.json","file":"expressions/exp/exp10.exp.json"},
+		{"name":"exp11.exp.json","file":"expressions/exp/exp11.exp.json"},
+		{"name":"exp12.exp.json","file":"expressions/exp/exp12.exp.json"},
+		{"name":"exp13.exp.json","file":"expressions/exp/exp13.exp.json"},
+		{"name":"exp14.exp.json","file":"expressions/exp/exp14.exp.json"},
+		{"name":"exp15.exp.json","file":"expressions/exp/exp15.exp.json"},
+		{"name":"exp01.exp.json","file":"expressions/exp/exp01.exp.json"},
+		{"name":"exp02.exp.json","file":"expressions/exp/exp02.exp.json"},
+		{"name":"exp03.exp.json","file":"expressions/exp/exp03.exp.json"},
+		{"name":"exp04.exp.json","file":"expressions/exp/exp04.exp.json"}
+	],
+	"hit_areas":
+	[
+		{"name":"head", "id":"D_REF.HEAD"},
+		{"name":"breast", "id":"D_REF.BREAST"},
+		{"name":"armr", "id":"D_REF.ARMR"},
+		{"name":"skirt", "id":"D_REF.SKIRT"},
+		{"name":"arml", "id":"D_REF.ARML"},
+		{"name":"hair", "id":"D_REF.HAIR"},
+		{"name":"rleg", "id":"D_REF.RLEG"},
+		{"name":"lleg", "id":"D_REF.LLEG"}
+	],
+	"motions":{
+		"idle":
+		[
+			{"file":"motions/ani05.mtn","fade_in":0,"fade_out":0}
+		],
+		"head":
+		[
+			{"file":"motions/ani01.mtn","sound":"111/1/head-face-hand-drag-02.mp3","fade_in":0,"fade_out":0},
+			{"file":"motions/ani02.mtn","sound":"111/1/head-face-hand-drag-03.mp3","fade_in":0,"fade_out":0}
+		],
+		"breast":
+		[
+			{"file":"motions/ani08.mtn","sound":"111/1/head-face-hand-drag-01.mp3","fade_in":0,"fade_out":0}
+		],
+		"skirt":
+		[
+			{"file":"motions/ani02.mtn","sound":"111/1/body-led-skirt-drag-01.mp3","fade_in":0,"fade_out":0}, 
+			{"file":"motions/ani07.mtn","sound":"111/1/body-led-skirt-drag-02.mp3","fade_in":0,"fade_out":0},
+			{"file":"motions/ani01.mtn","sound":"111/1/body-led-skirt-drag-03.mp3","fade_in":0,"fade_out":0},
+			{"file":"motions/ani03.mtn","sound":"111/1/body-led-skirt-tap-01.mp3","fade_in":0,"fade_out":0},
+			{"file":"motions/ani04.mtn","sound":"111/1/body-led-skirt-tap-02.mp3","fade_in":0,"fade_out":0},
+			{"file":"motions/ani05.mtn","sound":"111/1/body-led-skirt-tap-03.mp3","fade_in":0,"fade_out":0}
+		],
+		"arml":
+		[
+			{"file":"motions/ani03.mtn","sound":"111/1/body-led-skirt-tap-01.mp3","fade_in":0,"fade_out":0},
+			{"file":"motions/ani04.mtn","sound":"111/1/body-led-skirt-tap-02.mp3","fade_in":0,"fade_out":0},
+			{"file":"motions/ani05.mtn","sound":"111/1/body-led-skirt-tap-03.mp3","fade_in":0,"fade_out":0}
+		],
+		"hair":
+		[
+			{"file":"motions/ani04.mtn","sound":"111/1/body-led-skirt-tap-02.mp3","fade_in":0,"fade_out":0},
+			{"file":"motions/ani05.mtn","sound":"111/1/body-led-skirt-tap-03.mp3","fade_in":0,"fade_out":0}
+		],
+		"rleg":
+		[
+			{"file":"motions/ani02.mtn","sound":"111/1/body-led-skirt-drag-01.mp3","fade_in":0,"fade_out":0}, 
+			{"file":"motions/ani07.mtn","sound":"111/1/body-led-skirt-drag-02.mp3","fade_in":0,"fade_out":0},
+			{"file":"motions/ani06.mtn","sound":"111/1/body-led-skirt-drag-03.mp3","fade_in":0,"fade_out":0},
+			{"file":"motions/ani03.mtn","sound":"111/1/body-led-skirt-tap-01.mp3","fade_in":0,"fade_out":0},
+			{"file":"motions/ani04.mtn","sound":"111/1/body-led-skirt-tap-02.mp3","fade_in":0,"fade_out":0},
+			{"file":"motions/ani05.mtn","sound":"111/1/body-led-skirt-tap-03.mp3","fade_in":0,"fade_out":0}
+		],
+		"lleg":
+		[
+			{"file":"motions/ani02.mtn","sound":"111/1/body-led-skirt-drag-01.mp3","fade_in":0,"fade_out":0}, 
+			{"file":"motions/ani06.mtn","sound":"111/1/body-led-skirt-drag-02.mp3","fade_in":0,"fade_out":0},
+			{"file":"motions/ani01.mtn","sound":"111/1/body-led-skirt-drag-03.mp3","fade_in":0,"fade_out":0},
+			{"file":"motions/ani03.mtn","sound":"111/1/body-led-skirt-tap-01.mp3","fade_in":0,"fade_out":0},
+			{"file":"motions/ani04.mtn","sound":"111/1/body-led-skirt-tap-02.mp3","fade_in":0,"fade_out":0},
+			{"file":"motions/ani05.mtn","sound":"111/1/body-led-skirt-tap-03.mp3","fade_in":0,"fade_out":0}
+		]
+	}
+}

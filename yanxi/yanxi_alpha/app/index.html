@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="">
+  <head>
+    <meta charset="utf-8">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=0.5,maximum-scale=0.5,minimum-scale=0.5,user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="HandheldFriendly" content="true">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="theme-color" content="black" />
+
+    <title>嫣汐内测</title>
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+    <!-- Place favicon.ico in the root directory -->
+    <!-- build:css styles/vendor.css -->
+    <!-- bower:css -->
+    <!-- endbower -->
+    <!-- endbuild -->
+    <!-- build:css styles/main.css -->
+    <link rel="stylesheet" href="styles/main.css">
+    <!-- endbuild -->
+  </head>
+  <body>
+    <!--[if lt IE 10]>
+    <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+    <div class="content">
+      <!-- 顶部 -->
+      <div class="logo"> </div>
+      <!-- 输入页1 -->
+      <div class="inp">
+        <!-- 想玩游戏吗？ -->
+        <input class="inp1" type="button" value ="想玩游戏吗？">
+        <!-- <div class="line"></div>
+        <input class="inp2" type="number" placeholder="请输入邀请码"> -->
+      </div>
+      <!-- 输入页2 -->
+      <div class="tex">
+        <input class="tex1"  type="number" placeholder="请输入QQ号码">
+        <input class="tex2" type="number" placeholder="请输入手机号码">
+        <textarea class="tex3"  type="text"  placeholder="聊聊你理想中的虚拟歌姬养成APP是怎样的"></textarea>
+      </div>
+      <!-- 确认 -->
+      <a href="192.168.1.197:8080">
+      <img class="btn1" src="images/2x/quedin_a@2x.png"></a>
+      <!-- <img class="btn1" src="images/2x/quedin_b@2x.png"> -->
+
+      <!-- 安装 -->
+      <img class="btn2" src="images/2x/ljaz_a@2x.png">
+      <!-- 底部 -->
+      <footer>
+        <a href="javascript:goApplication()">
+          <img class="le-foot" src="images/2x/sqnc@2x.png">
+        </a>
+        <a href="/">
+          <img class="ri-foot" src="images/2x/xnyc_a@2x.png">
+        </a>
+      </footer>
+        <!-- live2d -->
+        <canvas id="glcanvas"> </canvas>
+      </div>
+      <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+      <!-- build:js scripts/vendor.js -->
+      <!-- bower:js -->
+      <!-- endbower -->
+      <!-- endbuild -->
+      <!-- build:js scripts/plugins.js -->
+      <script src="scripts/live2d.min.js"></script>
+      <script src="scripts/Live2DFramework.js"></script>
+      <script src="scripts/live2d/utils/MatrixStack.js"></script>
+      <script src="scripts/live2d/utils/ModelSettingJson.js"></script>
+      <script src="scripts/live2d/PlatformManager.js"></script>
+      <script src="scripts/live2d/LAppDefine.js"></script>
+      <script src="scripts/live2d/LAppModel.js"></script>
+      <script src="scripts/live2d/LAppLive2DManager.js"></script>
+      <!-- endbuild -->
+      
+      <!-- build:js scripts/main.js -->
+      <script src="scripts/main.js"></script>
+      <!-- endbuild -->
+      <!-- build:js scripts/SampleApp1.js -->
+      <script src="scripts/live2d/SampleApp1.js"></script>
+      <!-- endbuild -->
+      
+      <script async="true">
+          var _mtac = {};
+          (function() {
+            var mta = document.createElement("script");
+            mta.src = "http://pingjs.qq.com/h5/stats.js?v2.0.4";
+            mta.setAttribute("name", "MTAH5");
+            mta.setAttribute("sid", "500416979");
+            mta.setAttribute("cid", "500416982");
+            var s = document.getElementsByTagName("script")[0];
+            s.parentNode.insertBefore(mta, s);
+          })();
+      </script>
+    </body>
+  </html>

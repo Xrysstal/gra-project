@@ -1,0 +1,17 @@
+{
+	"type":"Live2D Expression",
+	"fade_in":500,
+	"fade_out":500,
+	"params":[
+		{"id":"PARAM_ANGLE_Z","val":-2,"def":-8},
+		{"id":"PARAM_EYE_BALL_X","val":-1},
+		{"id":"PARAM_BROW_L_Y","val":1},
+		{"id":"PARAM_BROW_R_Y","val":1},
+		{"id":"PARAM_BROW_L_X","val":-0.17},
+		{"id":"PARAM_BROW_R_X","val":-0.08},
+		{"id":"PARAM_BROW_L_ANGLE","val":0.51},
+		{"id":"PARAM_BROW_R_ANGLE","val":0.56},
+		{"id":"PARAM_haixiu02","val":1},
+		{"id":"PARAM_mouth01","val":0.5}
+	]
+}
